@@ -1,0 +1,13 @@
+table{
+   width: fit-content;
+   height: max-content;
+    border: 3px dashed black;
+
+    
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
