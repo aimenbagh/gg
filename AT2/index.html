@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<table>
+    <form action="hh.php" method="post">
+    <tr>
+        <td>Nom</td>
+        <td>: <input name="Nom" type="text"></td>
+    </tr>
+    <tr>
+        <td>Prénom</td>
+        <td>: <input name="Prenom" type="text"></td>
+    </tr>
+    <tr>
+        <td>Genre</td>
+        <td>: 
+        <input type="radio" name="Genre" value="m"> Masculin
+        <input type="radio" name="Genre" value="f"> Féminin
+    </td>
+    </tr>
+    <tr>
+        <td>Civilité</td>
+        <td>:
+            <input type="radio" name="Civilité" value="ma"> Marié
+            <input type="radio" name="Civilité" value="ce"> Célibataire    
+         </td>
+    </tr>
+    <tr>
+        <td>Adresse</td>
+        <td>:
+            <input type="text">
+
+        </td>
+    </tr>
+    <tr>
+        <td>Date de Naissance</td>
+        <td>: <input type="date"></td>
+    </tr>
+    <tr>
+        <td>Telephone</td>
+        <td>: <input type="text"></td>
+    </tr>
+    <tr>
+        <td><pre style="font-family: Arial, Helvetica, sans-serif;">Statut:</pre> </td>
+        <td>-Employé <input type="checkbox" name="Statut" id=""><br>
+           -Stagiaire <input type="checkbox" name="Statut" id=""><br>
+        -Etudiant<input type="checkbox" name="Statut" id=""><br>
+        -Retraité<input type="checkbox" name="Statut" id="">
+        </td>
+    </tr>
+    <tr>
+        <td> <pre style="font-family: Arial, Helvetica, sans-serif;">Langue maitrisé    :</pre></td>
+        <td>
+            <select name="langue" id="" multiple>
+                <option value="">Algérienne</option>
+                <option value="">Arabe</option>
+                <option value="">Francais</option>
+                <option value="">Anglais</option>
+                <option value="">Mandarin</option>
+            </select>
+
+        </td>
+    </tr>
+    <tr>
+      <td><input type="submit" value="Envoyer"></td>  
+    </tr>
+    
+</form>
+</table>
+
+
+
+</body>
+</html>
