@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title> Page du Formulaire </title>
+</head>
+<body>
+<h1 style="text-align:center;color:red"> Informations Personnelles </h1>
+<div align="center">
+<form method="post" action="reponse.php">
+<table style="border: solid red; width:600; height:300;">
+<tr>
+<td align="right" width="35%"> Nom 
+<td align="center" width="10%"> :
+<td align="left" width="50%"> <input name="nom" type="text" placeholder="saisir le nom">
+<tr> 
+<td align="right" width="35%">Civilité
+<td align="center" width="10%"> :
+<td align="left" width="50%"> 
+<input name="civil" type="radio" value="m">Marié <input name="civil" type="radio" value="c">Célibaire
+<tr> 
+<td align="right" width="35%"> Genre 
+<td align="center" width="10%"> :
+<td align="left" width="50%"> 
+<input name="genre" type="radio" value="m">Masculin <input name="genre" type="radio" value="f">Féminin
+<tr height="30%"><td align="right" width="40%" valign="middle"> Statut
+<td align="center" width="10%"> :
+<td align="left" width="50%">
+<select name="statut">
+<option value="Etudiant">Etudiant</option>
+<option value="Employé">Employé</option>
+<option value="Stagiaire">Stagiaire</option>
+<option value="Retraité">Retraité</option>
+</select>
+<tr> <td colspan="3" align="center"> 
+<input type="submit" value="Valider">
+<input type="reset" value="Annuler">
+</table>
+</form>
+</div>
+</body>
+</html>
